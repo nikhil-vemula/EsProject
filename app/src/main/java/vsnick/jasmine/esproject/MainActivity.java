@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements OnMapReadyCallback {
     IntentFilter intentFilter;
     private GoogleMap mMap;
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS =0 ;
-    private static final String phoneNo="+919985075565";
+    private static final String phoneNo="+9199999999999";
     private static final String message="es";
     private ProgressBar spinner;
     private BroadcastReceiver intentReceiver = new BroadcastReceiver() {
@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements OnMapReadyCallback {
         {
             public void onClick(View v)
             {
-                //sendSMS("+919000466890", "{\"lat\":17.475195,\"log\":78.386600}");
+                
                 sendSMS();
                 spinner.setVisibility(View.VISIBLE);
             }
